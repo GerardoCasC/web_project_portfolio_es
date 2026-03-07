@@ -13,4 +13,62 @@
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   gap: 25px;
   justify-items: center;
+  margin-bottom: 100px;
+}
+.projects {
+  padding: 0 120px;
+}
+.projects__title {
+  font-family: "Archivo Black", Arial, sans-serif;
+  font-size: 40px;
+  margin: 0 0 50px 0;
+}
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.projects__card {
+  background-color: #1e1e1e;
+  width: 590px;
+}
+.projects__card-image {
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  background-image: url(../images/coffee_landpage.jpeg);
+  background-size: cover;
+}
+.projects__gradient_card {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.projects__card-info {
+  padding: 30px;
+}
+.projects__card-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+.projects__card-footer {
+  display: flex;
+  gap: 20px;
+}
+.projects__card-footer a {
+  font-size: 16px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+.projects__card-link-demo {
+  color: #6d6dff;
+}
+.projects__card-link-github {
+  color: #fff;
+  opacity: 0.6;
 }
