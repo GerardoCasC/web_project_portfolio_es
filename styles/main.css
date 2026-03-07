@@ -1,0 +1,16 @@
+.skills {
+  display: flex;
+  padding: 0 120px;
+  flex-direction: column;
+}
+.skills__title {
+  font-family: "Archivo Black", Arial, sans-serif;
+  font-size: 40px;
+  margin: 0 0 54px 0;
+}
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
