@@ -77,5 +77,11 @@
 }
 .projects__card-link-github {
   color: #fff;
-  opacity: 0.6;
+}
+/* HOVER */
+.projects__card-link-demo:hover {
+  opacity: 0.5;
+}
+.projects__card-link-github:hover {
+  opacity: 0.5;
 }

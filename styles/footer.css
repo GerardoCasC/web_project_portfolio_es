@@ -19,3 +19,10 @@
   flex-direction: row;
   gap: 80px;
 }
+/* HOVER */
+.footer__email:hover {
+  opacity: 0.5;
+}
+.footer__social-svg:hover {
+  opacity: 0.5;
+}
