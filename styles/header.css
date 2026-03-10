@@ -63,3 +63,22 @@
 .header__link:hover {
   opacity: 0.5;
 }
+/* MEDIA QUERIES */
+@media (max-width: 1023px) {
+  .header {
+    padding: 40px 40px 0;
+  }
+  .header__title {
+    margin-bottom: 12px;
+  }
+  .header__subtitle {
+    margin-bottom: 20px;
+  }
+  .header__description {
+    margin-bottom: 20px;
+  }
+  .header__image {
+    width: 216px;
+    height: 280px;
+  }
+}

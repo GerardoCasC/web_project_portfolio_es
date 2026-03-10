@@ -89,3 +89,21 @@
 .projects__card-link-github:hover {
   opacity: 0.5;
 }
+/* MEDIA QUERIES */
+@media (max-width: 1023px) {
+  .skills {
+    padding: 0 40px;
+  }
+  .skills__title {
+    margin-bottom: 44px;
+  }
+  .skills__list {
+    margin-bottom: 83px;
+  }
+  .projects {
+    padding: 0 40px;
+  }
+  .projects__title {
+    margin-bottom: 30px;
+  }
+}

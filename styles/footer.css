@@ -12,7 +12,7 @@
 }
 .footer__email {
   color: #6d6dff;
-  margin: 0 0 30px;
+  margin: 0 0 32px;
 }
 .footer_social-icons {
   display: flex;
@@ -25,4 +25,10 @@
 }
 .footer__social-svg:hover {
   opacity: 0.5;
+}
+/* MEDIA QUERIES */
+@media (max-width: 1023px) {
+  .footer__content {
+    padding: 80px 40px 102px;
+  }
 }
