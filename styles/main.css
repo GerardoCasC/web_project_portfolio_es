@@ -27,6 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 .projects__card {
   background-color: #1e1e1e;
@@ -35,7 +36,6 @@
 .projects__card-image {
   object-fit: cover;
   aspect-ratio: 16/9;
-  background-image: url(../images/coffee_landpage.jpeg);
   background-size: cover;
 }
 .projects__gradient_card {
@@ -46,6 +46,13 @@
   );
   aspect-ratio: 16/9;
   object-fit: cover;
+}
+/* IMAGENES DE PROJECT__CARD-IMAGE*/
+.projects__card-image-coffe-tripleten {
+  background-image: url(../images/coffee_landpage.jpeg);
+}
+.projects__card-image-extra {
+  background-image: url(../images/last_project.jpeg);
 }
 .projects__card-info {
   padding: 30px;
