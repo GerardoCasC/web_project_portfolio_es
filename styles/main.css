@@ -107,3 +107,32 @@
     margin-bottom: 30px;
   }
 }
+@media (max-width: 768px) {
+  .skills {
+    padding: 0 20px;
+  }
+  .skills__title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .skills__list {
+    margin-bottom: 60px;
+    gap: 60px;
+  }
+  .skills__list-svg {
+    width: 30px;
+    height: 30px;
+  }
+  .projects {
+    padding: 0 20px;
+  }
+  .projects__title {
+    font-size: 28px;
+  }
+  .projects__card {
+    min-width: 100%;
+  }
+  .projects__card-title {
+    font-size: 20px;
+  }
+}

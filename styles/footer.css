@@ -32,3 +32,14 @@
     padding: 80px 40px 102px;
   }
 }
+@media (max-width: 768px) {
+  .footer__content {
+    padding: 80px 20px 100px;
+  }
+  .footer__contact {
+    font-size: 28px;
+  }
+  .footer_social-icons {
+    gap: 40px;
+  }
+}

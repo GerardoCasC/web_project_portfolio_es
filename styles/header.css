@@ -69,6 +69,7 @@
     padding: 40px 40px 0;
   }
   .header__title {
+    font-size: 58px;
     margin-bottom: 12px;
   }
   .header__subtitle {
@@ -80,5 +81,31 @@
   .header__image {
     width: 216px;
     height: 280px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 20px 0;
+    flex-direction: column;
+  }
+  .header__image {
+    order: -1;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .header__text {
+    max-width: 100%;
+  }
+  .header__title {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .header__description {
+    margin-bottom: 30px;
+  }
+  .header__links {
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 70px;
   }
 }

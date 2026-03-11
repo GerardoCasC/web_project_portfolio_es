@@ -28,3 +28,10 @@ body {
     ),
     #111111;
 }
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .body {
+    font-size: 16px;
+  }
+}
